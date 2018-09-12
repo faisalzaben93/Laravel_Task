@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Signup</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+	 <link rel="stylesheet" href="signup.css">
+
+
+  </head>
+  <body>
+    <!-- Start Upper Bar -->
+	
+    <div class="upper-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm text-center text-sm-left">
+			<img src="img/defaultUser.png" class="rounded-circle" height="60px" width="0px">
+            <i class="fa fa-envelope-o"></i> faisal@User
+          </div>
+          <div class="col-sm text-center text-sm-right">
+            <a id="" href="" class="nav-link d-inline pr-0">Login</a>/<a href="" class="nav-link d-inline pl-0">Singup</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Upper Bar -->
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <span class="text-white-50">Homepage</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" 
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hand Made</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Computers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cell Phones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tools</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+	<!-- Singup Form -->
+<section class="signup-form bg-light">	
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card border-0 bg-light">
+                <div class="card-header bg-light border-0">
+					<div class="row">
+						<div class="col col-md-6 pr-0 pad">
+							<a href="login.html" class="nav-link d-inline text-muted justify-content-right">Login</a>
+						</div>	
+						<div class="col col-md-6 pl-0">
+						<a href="index.html" class="nav-link d-inline text-success justify-content-left">Signup</a>
+						</div>
+					</div>
+				</div>
+                <div class="card-body bg-light border-0">
+                    <form method="POST" action="{{ route('register') }}">
+                        <div class="form-group row">
+                            <div class="col-md-12">
+                                <input placeholder="Type your username" id="name" type="text" class="form-control" name="name" value="" required autofocus>
+                                   
+                            </div>
+                        </div>
+
+						<div class="form-group row">
+                            <div class="col-md-12">
+                                <input placeholder="Type a Complex password" id="password" type="password" class="form-control" name="password" required>
+                                   
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-12">
+                                <input placeholder="Type a password again" id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
+                            </div>
+                        </div>
+						<div class="form-group row">
+
+                            <div class="col-md-12">
+                                <input placeholder="Type a Valid email" id="email" type="email" class="form-control" name="email" value="" required>
+                            </div>
+                        </div>
+						<div class="form-group row">
+
+                            <div class="col-md-6">
+                                <input id="img" type="file" class="form-control" name="img" value="">
+                            </div>
+							<div class="col-md-6">
+								<img class="img-thumbnail"src="img/defaultUser.png" alt="user singup image">
+							</div>
+                        </div>
+						
+                        <div class="form-group row mb-0">
+                            <div class="col-md-12"> 
+                                <button type="submit" class="btn btn-success w-100">
+								Signup
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>	
+	<!-- Singup Form-->
+    <!-- End Footer -->
+    <!-- Start Copyright -->
+    <div class="copyright py-5 my-5 bg-danger">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 text-center text-sm-left text-uppercase">
+            Copyright 2017 EliteCorp &copy;
+          </div>
+          <div class="col-sm-6 text-center text-sm-right">
+            <ul class="list-unstyled">
+              <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Copyright -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

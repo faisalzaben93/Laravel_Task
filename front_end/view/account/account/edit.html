@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Singup</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+	 <link rel="stylesheet" href="signup.css">
+
+
+  </head>
+  <body>
+    <!-- Start Upper Bar -->
+	
+    <div class="upper-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm text-center text-sm-left">
+			<img src="img/defaultUser.png" class="rounded-circle" height="60px" width="0px">
+            <i class="fa fa-envelope-o"></i> faisal@User
+          </div>
+          <div class="col-sm text-center text-sm-right">
+            <a id="" href="" class="nav-link d-inline pr-0">Login</a>/<a href="" class="nav-link d-inline pl-0">Singup</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Upper Bar -->
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <span class="text-white-50">Homepage</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" 
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hand Made</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Computers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cell Phones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tools</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+	<!-- Edit Profile Form -->
+<section class="signup-form ">	
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+        <h1 class="text-title text-secondary text-center px-0">Edit Profile</h1>
+            <div class="card border-primary">
+                <div class="card-header bg-primary py-0">
+					<div class="row">
+						<div  class="col col-md-12">
+							<p  class="text-title text-white justify-content-left">Edit User</p>
+						</div>	
+						
+					</div>
+				</div>
+                <div class="card-body">
+                    <form method="POST" action="{{ route('register') }}">
+						<div class="row">
+						<div class="col-md-8">
+                       
+							<div class="form-group row">
+								<div class="col-md-4">
+									<label class="text-right" for="name" >UserName</label>
+								</div>
+								<div class="col-md-8">
+									<input id="name" type="text" class="form-control d-inline" name="name" value="" required autofocus>
+										<i class="fas fa-asterisk d-inline"></i>
+
+								</div>
+
+							</div>
+							<div class="form-group row">
+								<div class="col-md-4">
+									<label class="text-right" for="name" >Email</label>
+								</div>
+								<div class="col-md-8">
+									<input  id="email" type="text" class="form-control required" name="email" value="" required autofocus><i class="fas fa-asterisk"></i>
+									
+								</div>
+							</div>
+							<div class="form-group row">
+								<div class="col-md-4">
+									<label class="text-right" for="name" >Password</label>
+								</div>
+								<div class="col-md-8">
+									<input id="price" type="password" class="form-control required" name="password" value="" required autofocus>
+									<i class="fas fa-asterisk"></i>
+								</div>
+							</div>
+							<div class="form-group row">
+								<div class="col-md-4">
+									<label class="text-right" for="name" >Confirm Password</label>
+								</div>
+								<div class="col-md-8">
+									<input class="form-control required" id="confirm_password" type="password"  name="confirm_password" value="" required autofocus>
+									<i class="fas fa-asterisk"></i>
+								</div>
+							</div>
+							<div class="form-group row">
+								<div class="col-md-4">
+									<label for="name" >Image</label>
+								</div>
+								<div class="col-md-8">
+									<input id="img" type="file" class="form-control border-muted" name="img" value="">
+								</div>
+							</div>
+							
+						</div>
+						<div class="col-md-4">
+						<div class="row">
+							 <div class="card">
+								<img class="card-img-top" src="img/defaultUser.png" alt="Card image cap">
+							</div>
+						  </div>
+						</div>
+                            
+						 
+                        <div class="form-group row mb-0">
+							<div class="col-md-9 offset-md-3 ">
+                                <button type="submit" class="btn btn-primary">
+								save
+                                </button>
+							</div>
+                        </div>
+						</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>	
+	<!-- Singup Form-->
+    <!-- End Footer -->
+    <!-- Start Copyright -->
+    <div class="copyright py-5 my-5 bg-danger">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 text-center text-sm-left text-uppercase">
+            Copyright 2017 EliteCorp &copy;
+          </div>
+          <div class="col-sm-6 text-center text-sm-right">
+            <ul class="list-unstyled">
+              <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Copyright -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
