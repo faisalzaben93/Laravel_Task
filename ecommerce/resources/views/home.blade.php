@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
+	 <link rel="stylesheet" href="../../css/homepage.css">
+
+<script>
+  var loadFile = function(event) {
+    var output = document.getElementById('output');
+    output.src = URL.createObjectURL(event.target.files[0]);
+  };
+</script>
+  </head>
+  <body>
+    <!-- Start Upper Bar -->
+	
+    <div class="upper-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm text-center text-sm-left">
+			<img src="../../img/defaultUser.png" class="rounded-circle" height="60px" width="0px">
+            <i class="fa fa-envelope-o"></i> faisal@User
+          </div>
+          <div class="col-sm text-center text-sm-right">
+            <a id="" href="" class="nav-link d-inline pr-0">Login</a>/<a href="" class="nav-link d-inline pl-0">Singup</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Upper Bar -->
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <span class="text-white-50">Homepage</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" 
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hand Made</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Computers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cell Phones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tools</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+	<!--  Homepage Form -->
+<section class="homepage-form bg-light">	
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header bg-light border-0">
+						<div class="row text-center">
+							<div  class="col col-lg-12">
+								<h3 class="card-title text-muted">Home Page</h3>
+							</div>							
+						</div>
+					</div>
+					<div class="card-body">	
+				
+						<div class="card-deck my-3 row">
+						  <div class="card col-sm-6 col-lg-3">
+							<img class="card-img-top" src="../../img/defaultUser.png" alt="Card image cap">
+							<span class="badge badge-secondary">$900</span>
+							<div class="card-body">
+							  <h5 class="card-title text-primary">Card title</h5>
+							  <p class="card-text">Description must be here</p>
+							  <p class="card-text text-secondary"><small class="text-muted">10/10/2015</small></p>
+							</div>
+						  </div>
+						  <div class="card col-sm-6 col-lg-3">
+							<img class="card-img-top" src="../../img/defaultUser.png" alt="Card image cap">
+							<span class="badge badge-secondary">$900</span>
+							
+							<div class="card-body">
+							  <h5 class="card-title text-primary">Card title</h5>
+							  <p class="card-text">Description must be here</p>
+							  <p class="card-text text-right"><small class="text-muted">10/10/2015</small></p>
+							</div>
+						  </div>
+						  
+						  <div class="card col-sm-6 col-lg-3">
+							<img class="card-img-top" src="../../img/defaultUser.png" alt="Card image cap">
+							<span class="badge badge-secondary">$900</span>
+
+							<div class="card-body">
+							  <h5 class="card-title text-primary">Card title</h5>
+							  <p class="card-text">Description must be here</p>
+							  <p class="card-text text-right"><small class="text-muted">10/10/2015</small></p>
+							</div>
+						  </div>
+						  <div class="card col-sm-6 col-lg-3">
+							<img class="card-img-top" src="../../img/defaultUser.png" alt="Card image cap">
+							<span class="badge badge-secondary">$900</span>
+
+							<div class="card-body">
+							  <h5 class="card-title text-primary">Card title</h5>
+							  <p class="card-text">Description must be here</p>
+							  <p class="card-text text-right"><small class="text-muted">10/10/2015</small></p>
+							</div>
+						  </div>
+						</div>
+						
+						<div class="card-deck my-3">
+						  <div class="card col-12 col-sm-3 col-md-6">
+							<img class="card-img-top" src="../../img/defaultUser.png" alt="Card image cap">
+							<div class="card-body">
+							  <h5 class="card-title text-primary">Card title</h5>
+							  <p class="card-text">Description must be here</p>
+							  <p class="card-text text-right"><small class="text-muted">10/10/2015</small></p>
+							  </div>
+						  </div>
+						  <div class="card col-12 col-sm-3 col-md-6">
+							<img class="card-img-top" src="../../img/defaultUser.png" alt="Card image cap">
+							<div class="card-body">
+							  <h5 class="card-title text-primary">Card title</h5>
+							  <p class="card-text">Description must be here</p>
+							  <p class="card-text text-right"><small class="text-muted">10/10/2015</small></p>
+							</div>
+						  </div>
+						  
+						  <div class="card col-12 col-sm-3 col-md-6">
+							<img class="card-img-top" src="../../img/defaultUser.png" alt="Card image cap">
+							<div class="card-body">
+							  <h5 class="card-title text-primary">Card title</h5>
+							  <p class="card-text">Description must be here</p>
+							  <p class="card-text text-right"><small class="text-muted">10/10/2015</small></p>
+							</div>
+						  </div>
+						  <div class="card col-12 col-sm-3 col-md-6">
+							<img class="card-img-top" src="../../img/defaultUser.png" alt="Card image cap">
+							<div class="card-body">
+							  <h5 class="card-title text-primary">Card title</h5>
+							  <p class="card-text">Description must be here</p>
+							  <p class="card-text text-right"><small class="text-muted">10/10/2015</small></p>
+							</div>
+						  </div>
+						</div>
+						<div class="card-deck my-3">
+						  <div class="card col-12 col-sm-3 col-md-6">
+							<img class="card-img-top" src="../../img/defaultUser.png" alt="Card image cap">
+							<div class="card-body">
+							  <h5 class="card-title text-primary">Card title</h5>
+							  <p class="card-text">Description must be here</p>
+							  <p class="card-text text-right"><small class="text-muted">10/10/2015</small></p>
+							  </div>
+						  </div>
+						  <div class="card col-12 col-sm-3 col-md-6">
+							<img class="card-img-top" src="../../img/defaultUser.png" alt="Card image cap">
+							<div class="card-body">
+							  <h5 class="card-title text-primary">Card title</h5>
+							  <p class="card-text">Description must be here</p>
+							  <p class="card-text text-right"><small class="text-muted">10/10/2015</small></p>
+							</div>
+						  </div>
+						  
+						  <div class="card col-12 col-sm-3 col-md-6">
+							<img class="card-img-top" src="../../img/defaultUser.png" alt="Card image cap">
+							<div class="card-body">
+							  <h5 class="card-title text-primary">Card title</h5>
+							  <p class="card-text">Description must be here</p>
+							  <p class="card-text text-right"><small class="text-muted">10/10/2015</small></p>
+							</div>
+						  </div>
+						  <div class="card col-12 col-sm-3 col-md-6">
+							<img class="card-img-top" src="../../img/defaultUser.png" alt="Card image cap">
+							<div class="card-body">
+							  <h5 class="card-title text-primary">Card title</h5>
+							  <p class="card-text">Description must be here</p>
+							  <p class="card-text text-right"><small class="text-muted">10/10/2015</small></p>
+							</div>
+						  </div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>	
+	<!-- Homepage Form-->
+    <!-- End Footer -->
+    <!-- Start Copyright -->
+    <div class="copyright py-5 my-5 bg-danger">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 text-center text-sm-left text-uppercase">
+            Copyright 2017 EliteCorp &copy;
+          </div>
+          <div class="col-sm-6 text-center text-sm-right">
+            <ul class="list-unstyled">
+              <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Copyright -->
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/popper.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/main.js"></script>
+  </body>
+</html>
+
